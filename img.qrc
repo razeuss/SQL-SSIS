@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../../../Pictures/adobe photoshop/groupBox.png</file>
+        <file>../../../../Downloads/icons8-search-128.png</file>
+        <file>../../../../Downloads/profile.png</file>
+        <file>../../../../Downloads/icons8-trash-96.png</file>
+        <file>../../../../Downloads/icons8-home-96.png</file>
+        <file>../../../../Downloads/icons8-management-96 (3).png</file>
+        <file>../../../../Downloads/blue-studman.png</file>
+        <file>../../../../Downloads/blue-home.png</file>
+        <file>../../../../Downloads/blue-prog.png</file>
+        <file>../../../../Downloads/icons8-requirements-96.png</file>
+    </qresource>
+</RCC>

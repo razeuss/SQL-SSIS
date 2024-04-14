@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addDialog</class>
+ <widget class="QDialog" name="addDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#addDialog{
+background-color: #e0e1dd
+}
+
+#name, #course, #idnum {
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 10px;
+}
+
+#yrlvlbox, #genderBox{
+   border-radius: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+  
+} 
+
+QComboBox::drop-down { 
+background-color: transparent; }
+
+#label, #label_2, #label_4, #label_5, #label_6 {
+color: #8a817c;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="idnum">
+   <property name="geometry">
+    <rect>
+     <x>94</x>
+     <y>320</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>ID NUMBER</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="course">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>270</y>
+     <width>306</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>PROGRAM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>60</y>
+     <width>135</width>
+     <height>135</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="img.qrc">:/Downloads/profile.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="genderBox">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>220</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>SEX</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>MALE</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>FEMALE</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>94</x>
+     <y>220</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>NAME</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="yrlvlbox">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>320</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>YEAR LEVEL</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1ST YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2ND YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3RD YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>4TH YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>5TH YEAR</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>6TH YEAR</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>203</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>253</y>
+     <width>49</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Program</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>303</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID Number</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>274</x>
+     <y>303</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Year Level</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>324</x>
+     <y>203</y>
+     <width>71</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Gender</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="deletebutton">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>41</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#deletebutton{
+background-color: #1b263b;
+border-radius: 5px;
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="img.qrc">
+     <normaloff>:/Downloads/icons8-trash-96.png</normaloff>:/Downloads/icons8-trash-96.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>19</width>
+     <height>19</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="editbtn">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>10</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EDIT INFO</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="done">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>460</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DONE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addcourse</class>
+ <widget class="QDialog" name="addcourse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>350</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#addcourse{
+background-color: #e0e1dd
+}
+
+#coursecode, #coursename, #options {
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 10px;
+}
+QComboBox::drop-down { 
+background-color: transparent; }
+
+</string>
+  </property>
+  <widget class="QLineEdit" name="coursecode">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>50</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>PROGRAM CODE</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="options">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>DEGREE TYPE</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>BS</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>BA</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Bachelor</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Master</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="coursename">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="placeholderText">
+    <string>PROGRAM NAME</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="done">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>160</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DONE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
